@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    font-family: Poppins;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+}
+
+.heading{
+    font-weight: 800;
+}
+
+.heading span {
+    color: blue;
+}
+
+.unorderlist{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+     list-style: none;
+}
